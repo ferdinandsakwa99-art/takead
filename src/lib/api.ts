@@ -1,7 +1,7 @@
 import { supabase } from './supabase'
 
 export const API_BASE_URL = (
-  import.meta.env.VITE_API_URL || 'https://fun-production-5046.up.railway.app'
+  import.meta.env.VITE_API_URL || 'https://takead.vercel.app'
 ).replace(/\/$/, '')
 
 export async function apiFetch(path: string, options: RequestInit = {}) {
